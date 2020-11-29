@@ -1,0 +1,60 @@
+{
+  "name": "oop",
+  "version": "0.0.1",
+  "description": "for fun",
+  "main": "index.js",
+  "scripts": {
+    "dev": "open-cli http://127.0.0.1:8080/dev/index.html && http-server ./",
+    "build": "node build.js",
+    "build:dev": "node build.js -w",
+    "test": "karma start test/unit/karma.unit.config.js",
+    "test:cover": "karma start test/unit/karma.cover.config.js",
+    "release": "npm publish",
+    "release:beta": "npm run build && npm publish --tag beta"
+  },
+  "keywords": [
+    "hooks",
+    "react",
+    "virtual-dom",
+    "view"
+  ],
+  "author": "lifechat",
+  "license": "ISC",
+  "contributors": [
+    {
+      "name": "lifechat",
+      "email": "lifechat@126.com",
+      "url": "https://github.com/lifechat"
+    }
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-transform-react-jsx": "^7.8.3",
+    "@babel/preset-env": "^7.5.5",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-istanbul": "^5.2.0",
+    "chokidar": "^3.3.1",
+    "codecov": "^3.6.1",
+    "jasmine-core": "^3.5.0",
+    "karma": "^3.1.1",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-coverage": "^1.1.2",
+    "karma-dirname-preprocessor": "^0.0.4",
+    "karma-filemap-preprocessor": "^0.1.0",
+    "karma-firefox-launcher": "^1.1.0",
+    "karma-jasmine": "^1.1.2",
+    "karma-mocha-reporter": "^2.2.5",
+    "karma-safari-launcher": "^1.0.0",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-webpack": "^3.0.5",
+    "rimraf": "^2.7.0",
+    "rollup": "^1.19.4",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-cleanup": "^3.1.1",
+    "rollup-plugin-commonjs": "^10.0.2",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-replace": "^2.2.0",
+    "rollup-plugin-terser": "^5.1.2",
+    "webpack": "^3.10.0"
+  }
+}
