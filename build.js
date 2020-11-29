@@ -72,3 +72,26 @@ const createReplacePlugin = ()=>{
         __VERSION__: `'${version}'`,
     })
 }
+
+async function build(cfg,needUglify,sourcemap = false,needBabel = true){
+
+}
+const buildVersion = sourcemap =>{
+
+}
+//watch,use in dev and test
+if(process.argv.includes('-w')){
+        let i = 0;
+        let isBuilded = false;
+        chokidar.watch('./src').on('all',async()=>{
+            if(isBuilded) return
+            isBuilded =  true;
+            console.clear();
+            console.log('rebuild'+ ++i);
+            await buildVersion(true);
+            isBuilded = false;
+        })
+        buildVersion(true)
+}else{
+    buildVersion();
+}
