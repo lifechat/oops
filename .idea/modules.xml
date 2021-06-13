@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/cheas1/cheas1.iml" filepath="$PROJECT_DIR$/cheas1/cheas1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cheas2/cheas2.iml" filepath="$PROJECT_DIR$/cheas2/cheas2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/advanced_cheas/advanced_cheas.iml" filepath="$PROJECT_DIR$/advanced_cheas/advanced_cheas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intermediate_cheas/intermediate_cheas.iml" filepath="$PROJECT_DIR$/intermediate_cheas/intermediate_cheas.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/oops.iml" filepath="$PROJECT_DIR$/.idea/oops.iml" />
+      <module fileurl="file://$PROJECT_DIR$/primary_cheas/primary_cheas.iml" filepath="$PROJECT_DIR$/primary_cheas/primary_cheas.iml" />
     </modules>
   </component>
 </project>
