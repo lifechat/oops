@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="webShopping" location="0,0" size="0,0">
+    <action name="UserAction" location="0,0" size="0,0">
+      <result name="login">
+        <resourceEdge source="login" routing="0" target="login_error.jsp" />
+      </result>
+      <result name="index">
+        <resourceEdge source="index" routing="0" target="login_success.jsp" />
+      </result>
+      <result name="regsuccess">
+        <resourceEdge source="regsuccess" routing="0" target="register.jsp" />
+      </result>
+      <result name="regerror">
+        <resourceEdge source="regerror" routing="0" target="register.jsp" />
+      </result>
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="reg_success.jsp" />
+      </result>
+      <result name="error">
+        <resourceEdge source="error" routing="0" target="reg_error.jsp" />
+      </result>
+      <result name="logout">
+        <resourceEdge source="logout" routing="0" target="index.jsp" />
+      </result>
+      <result name="updateUser">
+        <resourceEdge source="updateUser" routing="0" target="userInfo.jsp" />
+      </result>
+      <result name="listUser">
+        <resourceEdge source="listUser" routing="0" target="userList.jsp" />
+      </result>
+      <result name="queryUser">
+        <resourceEdge source="queryUser" routing="0" target="userQuery.jsp" />
+      </result>
+      <result name="findUsernull">
+        <resourceEdge source="findUsernull" routing="0" target="findPass.jsp" />
+      </result>
+      <result name="findUser">
+        <resourceEdge source="findUser" routing="0" target="resetPass.jsp" />
+      </result>
+      <result name="updatePass">
+        <resourceEdge source="updatePass" routing="0" target="resetPass.jsp" />
+      </result>
+      <result name="upPass">
+        <resourceEdge source="upPass" routing="0" target="updatePass.jsp" />
+      </result>
+    </action>
+    <action name="AdminAction" location="0,0" size="0,0">
+      <result name="login">
+        <resourceEdge source="login" routing="0" target="login.jsp" />
+      </result>
+      <result name="index">
+        <resourceEdge source="index" routing="0" target="index.jsp" />
+      </result>
+      <result name="logout">
+        <resourceEdge source="logout" routing="0" target="login.jsp" />
+      </result>
+      <result name="updateAdmin">
+        <resourceEdge source="updateAdmin" routing="0" target="amend.jsp" />
+      </result>
+    </action>
+    <action name="CommodityClassAction" location="0,0" size="0,0">
+      <result name="addCommodityClass">
+        <resourceEdge source="addCommodityClass" routing="0" target="commodityClassAdd.jsp" />
+      </result>
+      <result name="listCommodityClass">
+        <resourceEdge source="listCommodityClass" routing="0" target="commodityClassList.jsp" />
+      </result>
+      <result name="deleteCommodityClass" />
+    </action>
+    <action name="CommodityAction" location="0,0" size="0,0">
+      <result name="addComm" />
+      <result name="addCommoditySuccess" />
+      <result name="addCommodityError" />
+      <result name="listCommodity" />
+      <result name="deleteCommodity" />
+      <result name="findCommodityById" />
+      <result name="findCommodityByName" />
+      <result name="findCommodityByClass" />
+    </action>
+    <action name="AddToCarAction" location="0,0" size="0,0">
+      <result name="success" />
+      <result name="error" />
+      <result name="delete" />
+    </action>
+    <action name="OrderFormAction" location="0,0" size="0,0">
+      <result name="listOrderForm" />
+      <result name="conOrder" />
+      <result name="queryOrder" />
+      <result name="findOrderFormByUserName" />
+      <result name="payOrderForm" />
+      <result name="addOrderForm" />
+      <result name="payOrder" />
+    </action>
+    <action name="MessageAction" location="0,0" size="0,0">
+      <result name="listMessage" />
+      <result name="queryMessage" />
+      <result name="deleteMessage" />
+    </action>
+    <action name="GoIndexAction" location="0,0" size="0,0">
+      <result name="success" />
+    </action>
+  </package>
+  <webResource name="login_error.jsp" path="/login_error.jsp" location="0,0" size="0,0" />
+  <webResource name="login_success.jsp" path="/login_success.jsp" location="0,0" size="0,0" />
+  <webResource name="register.jsp" path="/register.jsp" location="0,0" size="0,0" />
+  <webResource name="reg_success.jsp" path="/reg_success.jsp" location="0,0" size="0,0" />
+  <webResource name="reg_error.jsp" path="/reg_error.jsp" location="0,0" size="0,0" />
+  <webResource name="index.jsp" path="/index.jsp" location="0,0" size="0,0" />
+  <webResource name="userInfo.jsp" path="/userInfo.jsp" location="0,0" size="0,0" />
+  <webResource name="userList.jsp" path="/admin/include/user/userList.jsp" location="0,0" size="0,0" />
+  <webResource name="userQuery.jsp" path="/admin/include/user/userQuery.jsp" location="0,0" size="0,0" />
+  <webResource name="findPass.jsp" path="/findPass.jsp" location="0,0" size="0,0" />
+  <webResource name="resetPass.jsp" path="/resetPass.jsp" location="0,0" size="0,0" />
+  <webResource name="updatePass.jsp" path="/updatePass.jsp" location="0,0" size="0,0" />
+  <webResource name="login.jsp" path="/admin/login.jsp" location="0,0" size="0,0" />
+  <webResource name="index.jsp" path="/admin/index.jsp" location="0,0" size="0,0" />
+  <webResource name="amend.jsp" path="/admin/include/admin/amend.jsp" location="0,0" size="0,0" />
+  <webResource name="commodityClassAdd.jsp" path="/admin/include/commodityClass/commodityClassAdd.jsp" location="0,0" size="0,0" />
+  <webResource name="commodityClassList.jsp" path="/admin/include/commodityClass/commodityClassList.jsp" location="0,0" size="0,0" />
+</Struts2Diagram>
+

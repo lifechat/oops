@@ -19,15 +19,35 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a422277-1961-495f-8ff7-4c490e06b906" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheas1/cheas1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheas2/cheas2.iml" beforeDir="false" />
+    <list default="true" id="2a422277-1961-495f-8ff7-4c490e06b906" name="Default Changelist" comment="java基础">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced_cheas/src/advanced_cheas/Its01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primary_cheas/src/primary_cheas/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primary_cheas/src/primary_cheas/Demo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primary_cheas/src/primary_cheas/Listen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/oops.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/oops.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced_cheas/advanced_cheas.iml" beforeDir="false" afterPath="$PROJECT_DIR$/advanced_cheas/advanced_cheas.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/intermediate_cheas/intermediate_cheas.iml" beforeDir="false" afterPath="$PROJECT_DIR$/intermediate_cheas/intermediate_cheas.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/primary_cheas/primary_cheas.iml" beforeDir="false" afterPath="$PROJECT_DIR$/primary_cheas/primary_cheas.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,14 +59,79 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="OverrideImplement.combined" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/primary_cheas/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/webShopping" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+  </component>
+  <component name="RunManager" selected="Application.Demo (1)">
+    <configuration name="Demo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="primary_cheas.Demo" />
+      <module name="primary_cheas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="primary_cheas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo" />
+      <module name="primary_cheas" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="primary_cheas.Demo2" />
+      <module name="primary_cheas" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Its01 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="advanced_cheas.Its01" />
+      <module name="advanced_cheas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="advanced_cheas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Its01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Its01" />
+      <module name="advanced_cheas" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Demo (1)" />
+        <item itemvalue="Application.Demo2" />
+        <item itemvalue="Application.Its01 (1)" />
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.Its01" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -58,8 +143,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1623569088354</updated>
-      <workItem from="1623569090167" duration="336000" />
+      <workItem from="1623569090167" duration="3682000" />
+      <workItem from="1623760901700" duration="4328000" />
     </task>
+    <task id="LOCAL-00001" summary="java基礎">
+      <created>1623569443369</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1623569443369</updated>
+    </task>
+    <task id="LOCAL-00002" summary="java基础">
+      <created>1623569665551</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1623569665551</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -75,15 +176,105 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="java基礎" />
+    <MESSAGE value="java基础" />
+    <option name="LAST_COMMIT_MESSAGE" value="java基础" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="440" y="99" key="#Project_Structure" timestamp="1623569281738">
+    <state x="842" y="386" key="#Notifications" timestamp="1623761070159">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="440" y="99" key="#Project_Structure/0.0.1920.1050@0.0.1920.1050" timestamp="1623569281738" />
-    <state x="334" y="185" key="new project wizard" timestamp="1623569416368">
+    <state x="842" y="386" key="#Notifications/0.0.1920.1050@0.0.1920.1050" timestamp="1623761070159" />
+    <state x="440" y="99" key="#Project_Structure" timestamp="1623761311760">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="334" y="185" key="new project wizard/0.0.1920.1050@0.0.1920.1050" timestamp="1623569416368" />
+    <state x="440" y="99" key="#Project_Structure/0.0.1920.1050@0.0.1920.1050" timestamp="1623761311760" />
+    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1623761517321">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1623761517321" />
+    <state x="740" y="229" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1623761398926">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="740" y="229" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1623761398926" />
+    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1623636997366">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1623636997366" />
+    <state x="601" y="231" key="FileChooserDialogImpl" timestamp="1623767224454">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="601" y="231" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1623767224454" />
+    <state width="1860" height="363" key="GridCell.Tab.0.bottom" timestamp="1623763518487">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1860" height="363" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1623763518487" />
+    <state width="1860" height="363" key="GridCell.Tab.0.center" timestamp="1623763518486">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1860" height="363" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1623763518486" />
+    <state width="1860" height="363" key="GridCell.Tab.0.left" timestamp="1623763518486">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1860" height="363" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1623763518486" />
+    <state width="1860" height="363" key="GridCell.Tab.0.right" timestamp="1623763518487">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1860" height="363" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1623763518487" />
+    <state width="1860" height="363" key="GridCell.Tab.1.bottom" timestamp="1623763518334">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1860" height="363" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1623763518334" />
+    <state width="1860" height="363" key="GridCell.Tab.1.center" timestamp="1623763518334">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1860" height="363" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1623763518334" />
+    <state width="1860" height="363" key="GridCell.Tab.1.left" timestamp="1623763518334">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1860" height="363" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1623763518334" />
+    <state width="1860" height="363" key="GridCell.Tab.1.right" timestamp="1623763518334">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1860" height="363" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1623763518334" />
+    <state x="600" y="228" key="NewModule_or_Project.wizard" timestamp="1623767242368">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="600" y="228" key="NewModule_or_Project.wizard/0.0.1920.1050@0.0.1920.1050" timestamp="1623767242368" />
+    <state x="440" y="99" key="SettingsEditor" timestamp="1623767245923">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="440" y="99" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1623767245923" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1623569767377">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1623569767377" />
+    <state x="759" y="302" key="chooseDestDirectoryDialog" timestamp="1623761942873">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="759" y="302" key="chooseDestDirectoryDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1623761942873" />
+    <state x="601" y="126" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1623637071731">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="601" y="126" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1623637071731" />
+    <state x="754" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1623761716310">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="754" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050@0.0.1920.1050" timestamp="1623761716310" />
+    <state x="685" y="311" key="git4idea.merge.GitPullDialog" timestamp="1623569757238">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="685" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1623569757238" />
+    <state x="334" y="185" key="new project wizard" timestamp="1623766812849">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="334" y="185" key="new project wizard/0.0.1920.1050@0.0.1920.1050" timestamp="1623766812849" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1623636970952">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1623636970952" />
   </component>
 </project>

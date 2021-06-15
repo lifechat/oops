@@ -1,0 +1,57 @@
+* {
+	
+}
+TABLE {
+	FONT-SIZE: 12px
+}
+DIV {
+	FONT-SIZE: 12px
+}
+BODY {
+	MARGIN: 0px; COLOR: rgb(51,51,51); FONT-SIZE: 12px
+}
+A:link {
+	FONT-FAMILY: "ËÎÌו"; COLOR: #2d52a5; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #2d52a5; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #2d52a5; TEXT-DECORATION: underline
+}
+A:active {
+	COLOR: #2d52a5; TEXT-DECORATION: none
+}
+.box {
+	BORDER-BOTTOM: #c4c4c4 1px solid; BORDER-LEFT: #c4c4c4 1px solid; WIDTH: 200px; BORDER-TOP: #c4c4c4 1px solid; BORDER-RIGHT: #c4c4c4 1px solid
+}
+.blue {
+	COLOR: #0000ff
+}
+A.menu:link {
+	COLOR: #ffffff
+}
+A.menu:visited {
+	COLOR: #ffffff
+}
+A.menu:hover {
+	COLOR: #ffff00
+}
+A.menu:active {
+	COLOR: #ffffff
+}
+.xi {
+	BORDER-BOTTOM: #c9deeb 1px solid; BORDER-LEFT: #c9deeb 1px solid; BORDER-TOP: #c9deeb 1px solid; BORDER-RIGHT: #c9deeb 1px solid
+}
+.notop {
+	BORDER-TOP: medium none
+}
+.box {
+	BORDER-BOTTOM: #c4c4c4 1px solid; BORDER-LEFT: #c4c4c4 1px solid; WIDTH: 200px; BORDER-TOP: #c4c4c4 1px solid; BORDER-RIGHT: #c4c4c4 1px solid
+}
+.bu {
+	BORDER-BOTTOM: #c4c4c4 1px solid; BORDER-LEFT: #c4c4c4 1px solid; BORDER-TOP: #c4c4c4 1px solid; BORDER-RIGHT: #c4c4c4 1px solid
+}
+.big {
+	COLOR: #0033ff; FONT-SIZE: 14pt
+}
