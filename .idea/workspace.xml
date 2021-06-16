@@ -19,20 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a422277-1961-495f-8ff7-4c490e06b906" name="Default Changelist" comment="java基础">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced_cheas/src/advanced_cheas/Its01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primary_cheas/src/primary_cheas/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primary_cheas/src/primary_cheas/Demo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primary_cheas/src/primary_cheas/Listen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/oops.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/oops.iml" afterDir="false" />
+    <list default="true" id="2a422277-1961-495f-8ff7-4c490e06b906" name="Default Changelist" comment="java ssh">
+      <change afterPath="$PROJECT_DIR$/primary_cheas/src/primary_cheas/Utility.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced_cheas/advanced_cheas.iml" beforeDir="false" afterPath="$PROJECT_DIR$/advanced_cheas/advanced_cheas.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intermediate_cheas/intermediate_cheas.iml" beforeDir="false" afterPath="$PROJECT_DIR$/intermediate_cheas/intermediate_cheas.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/primary_cheas/primary_cheas.iml" beforeDir="false" afterPath="$PROJECT_DIR$/primary_cheas/primary_cheas.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/primary_cheas/src/primary_cheas/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/primary_cheas/src/primary_cheas/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/primary_cheas/src/primary_cheas/Listen.java" beforeDir="false" afterPath="$PROJECT_DIR$/primary_cheas/src/primary_cheas/Listen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/primary_cheas/primary_cheas/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/primary_cheas/primary_cheas/Demo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/primary_cheas/primary_cheas/Listen.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/primary_cheas/primary_cheas/Listen.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +68,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
-  <component name="RunManager" selected="Application.Demo (1)">
+  <component name="RunManager" selected="Application.Listen">
     <configuration name="Demo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="primary_cheas.Demo" />
       <module name="primary_cheas" />
@@ -116,20 +109,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Its01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Its01" />
-      <module name="advanced_cheas" />
+    <configuration name="Listen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="primary_cheas.Listen" />
+      <module name="primary_cheas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="primary_cheas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Listen" />
         <item itemvalue="Application.Demo (1)" />
         <item itemvalue="Application.Demo2" />
         <item itemvalue="Application.Its01 (1)" />
         <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.Its01" />
       </list>
     </recent_temporary>
   </component>
@@ -144,7 +143,8 @@
       <option name="presentableId" value="Default" />
       <updated>1623569088354</updated>
       <workItem from="1623569090167" duration="3682000" />
-      <workItem from="1623760901700" duration="4328000" />
+      <workItem from="1623760901700" duration="5237000" />
+      <workItem from="1623852251636" duration="3165000" />
     </task>
     <task id="LOCAL-00001" summary="java基礎">
       <created>1623569443369</created>
@@ -160,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623569665551</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="java ssh">
+      <created>1623767533680</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1623767533680</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,7 +188,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="java基礎" />
     <MESSAGE value="java基础" />
-    <option name="LAST_COMMIT_MESSAGE" value="java基础" />
+    <MESSAGE value="java ssh" />
+    <option name="LAST_COMMIT_MESSAGE" value="java ssh" />
   </component>
   <component name="WindowStateProjectService">
     <state x="842" y="386" key="#Notifications" timestamp="1623761070159">
@@ -208,38 +216,38 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="601" y="231" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1623767224454" />
-    <state width="1860" height="363" key="GridCell.Tab.0.bottom" timestamp="1623763518487">
+    <state width="1860" height="294" key="GridCell.Tab.0.bottom" timestamp="1623856400860">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1860" height="363" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1623763518487" />
-    <state width="1860" height="363" key="GridCell.Tab.0.center" timestamp="1623763518486">
+    <state width="1860" height="294" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1623856400860" />
+    <state width="1860" height="294" key="GridCell.Tab.0.center" timestamp="1623856400860">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1860" height="363" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1623763518486" />
-    <state width="1860" height="363" key="GridCell.Tab.0.left" timestamp="1623763518486">
+    <state width="1860" height="294" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1623856400860" />
+    <state width="1860" height="294" key="GridCell.Tab.0.left" timestamp="1623856400860">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1860" height="363" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1623763518486" />
-    <state width="1860" height="363" key="GridCell.Tab.0.right" timestamp="1623763518487">
+    <state width="1860" height="294" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1623856400860" />
+    <state width="1860" height="294" key="GridCell.Tab.0.right" timestamp="1623856400860">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1860" height="363" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1623763518487" />
-    <state width="1860" height="363" key="GridCell.Tab.1.bottom" timestamp="1623763518334">
+    <state width="1860" height="294" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1623856400860" />
+    <state width="1877" height="363" key="GridCell.Tab.1.bottom" timestamp="1623768156700">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1860" height="363" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1623763518334" />
-    <state width="1860" height="363" key="GridCell.Tab.1.center" timestamp="1623763518334">
+    <state width="1877" height="363" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1623768156700" />
+    <state width="1877" height="363" key="GridCell.Tab.1.center" timestamp="1623768156700">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1860" height="363" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1623763518334" />
-    <state width="1860" height="363" key="GridCell.Tab.1.left" timestamp="1623763518334">
+    <state width="1877" height="363" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1623768156700" />
+    <state width="1877" height="363" key="GridCell.Tab.1.left" timestamp="1623768156700">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1860" height="363" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1623763518334" />
-    <state width="1860" height="363" key="GridCell.Tab.1.right" timestamp="1623763518334">
+    <state width="1877" height="363" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1623768156700" />
+    <state width="1877" height="363" key="GridCell.Tab.1.right" timestamp="1623768156700">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1860" height="363" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1623763518334" />
+    <state width="1877" height="363" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1623768156700" />
     <state x="600" y="228" key="NewModule_or_Project.wizard" timestamp="1623767242368">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -248,10 +256,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="440" y="99" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1623767245923" />
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1623569767377">
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1623767660292">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1623569767377" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1623767660292" />
     <state x="759" y="302" key="chooseDestDirectoryDialog" timestamp="1623761942873">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
